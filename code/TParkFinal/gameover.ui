@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>gameOver</class>
+ <widget class="QWidget" name="gameOver">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>344</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SMASHED</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(224, 255, 20);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_3">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(33, 33, 255);
+font: 22pt &quot;Purisa&quot;;</string>
+         </property>
+         <property name="text">
+          <string>SMASHED</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(33, 33, 255);
+font: 9pt &quot;Purisa&quot;;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(33, 33, 255);
+font: 9pt &quot;Purisa&quot;;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="newGameButton">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Purisa&quot;;
+color: rgb(33, 33, 255);</string>
+         </property>
+         <property name="text">
+          <string>New game</string>
+         </property>
+         <property name="default">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Purisa&quot;;
+color: rgb(33, 33, 255);</string>
+         </property>
+         <property name="text">
+          <string>Exit</string>
+         </property>
+         <property name="default">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
